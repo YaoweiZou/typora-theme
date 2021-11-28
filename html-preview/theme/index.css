@@ -1,39 +1,45 @@
 :root {
-    --text-font: "PingFang", sans-serif;
-    --code-font: "JetBrains Mono";
+    --text-font: "PingFang SC", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+    --code-font: "JetBrains Mono", monospace;
 }
 
 :root {
-    --body-background-color: #fff;
-    --body-primary-color: #1b1b1b;
-    --body-secondary-color: rgba(0, 0, 0, 0.65);
-    --body-link-color: #4161de;
-    --body-highlight-color: #faf37a;
+    --primary-background-color: #fff;
+    --secondary-background-color: #f9f9fa;
+    --thirdary-backgournd-color: #f7f7f7;
+    --primary-text-color: #1b1b1b;
+    --secondary-text-color: rgba(0, 0, 0, 0.65);
+    --link-color: #4161de;
+    --mark-color: #ffff00;
+
     --body-table-head-color: #f9f9f9;
     --body-table-background-odd: ;
     --body-table-background-even: ;
     --body-table-border-color: #d8d8d8;
     --body-code-background-color: #292a2f;
 
-    --sidebar-background-color: #f2f1f6;
-    --sidebar-text-color: #000;
+    --sidebar-primary-background-color: #f2f1f6;
+    --sidebar-primary-text-color: #000;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     :root {
-        --body-background-color: #1C1C1E;
-        --body-primary-color: #FFF;
-        --body-secondary-color: rgba(255, 255, 255, 0.7);
-        --body-link-color: #0088FC;
-        --body-highlight-color: #fffd2e;
+        --primary-background-color: #1C1C1E;
+        --secondary-background-color: #1A1A1A;
+        --thirdary-backgournd-color: #222222;
+        --primary-text-color: #FFF;
+        --secondary-text-color: rgba(255, 255, 255, 0.7);
+        --link-color: #0088FC;
+        --mark-color: #FFFD2E;
+
         --body-table-head-color: #505053;
         --body-table-background-odd: ;
         --body-table-background-even: ;
         --body-table-border-color: #5A5A5C;
         --body-code-background-color: #292a2f;
 
-        --sidebar-background-color: #000;
-        --sidebar-text-color: #FFF
+        --sidebar-primary-background-color: #000;
+        --sidebar-primary-text-color: #FFF
     }
 }
 
@@ -49,27 +55,26 @@ html {
 
 html, body {
     background: var(--body-background-color);
-    color: var(--body-primary-color);
+    color: var(--primary-text-color);
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     font-size: 1em;
     font-variant: normal;
     font-family: var(--text-font);
-    letter-spacing: normal;
+    letter-spacing: 0.01em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: 700;
+    font-family: var(--text-font);
 }
 
 h1 {
-    font-weight: 700;
     font-size: 2.5em;
 }
 
 h2 {
-    font-weight: 600;
     font-size: 2.25em;
 }
 
@@ -93,6 +98,15 @@ p {
     line-height: 1.75em;
 }
 
+code {
+    background: #ccc;
+    font-family: var(--code-font);
+}
+
+mark {
+    background-color: var(--mark-color);
+}
+
 a {
     color: var(--body-link-color);
     text-decoration: none;
@@ -103,14 +117,11 @@ a:hover {
 }
 
 ul {
-    margin: 1em 0;
+    margin: 0.5em 0;
+    list-style-position: inside;
 }
 
-li {
-
-}
-
-table, tr, th, td {
+table, thead, tbody, tr, th, td {
     border-left: 0;
     border-right: 0;
 }
@@ -121,10 +132,10 @@ tr, th, td {
 
 table {
     width: 100%;
-    margin: 2em auto;
+    margin: 1.5em auto;
 }
 
-th {
+thead {
     height: 2.5em;
     border-bottom: 1px solid #333;
     font-weight: 500;
