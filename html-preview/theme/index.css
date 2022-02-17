@@ -4,6 +4,9 @@
 }
 
 :root {
+    --bgc: #fafafa;
+    --text-color: #1d1d1f;
+
     --primary-background-color: #fff;
     --secondary-background-color: #f9f9fa;
     --thirdary-backgournd-color: #f7f7f7;
