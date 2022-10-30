@@ -1,0 +1,80 @@
+:root {
+    --global-viewport-large-max-width: 1441px;
+    /* max width 22 + 980 + 22 */
+    --global-viewport-large-min-width: 1024px;
+    --global-viewport-medium-max-width: 1023px;
+    --global-viewport-medium-min-width: 768px;
+    /* mobile */
+    --global-viewport-small-max-width: 767px;
+    --global-viewport-small-min-width: 420px;
+    --global-viewport-xsmall-max-width: 419px;
+    /* min width */
+    --global-viewport-xsmall-min-width: 320px;
+
+    /* remove */
+    --global-body-max-width: 980px;
+    --global-full-page-min-height: 500px;
+
+    --global-title-fonts: "SF Pro SC", "SF Pro Display", "SF Pro Icons", -apple-system, "PingFang SC", sans-serif;
+    --global-text-fonts: "SF Pro SC", "SF Pro Text", "SF Pro Icons", -apple-system, "PingFang SC", sans-serif;
+    --global-code-fonts: "JetBrains Mono", "SF Mono", "Source Code Pro", "Fira Code", monospace;
+}
+
+body {
+    --background-color: #fff;
+}
+
+body {
+    width: 100%;
+    min-width: var(--global-viewport-xsmall-min-width);
+    background-color: var(--background-color);
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--global-text-fonts);
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+p,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong,
+b {
+    font-weight: 700;
+}

@@ -1,0 +1,497 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 100;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_ultralight-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 200;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_thin-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 300;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_light-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 400;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_regular-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 500;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_medium-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 600;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_semibold-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 700;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_bold-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_heavy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 800;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_heavy-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 900;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_black-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./less/SF-Pro-Display/v3/sf-pro-display_regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 100;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 200;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 300;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_light-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 400;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 500;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 600;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 700;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_heavy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 800;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 900;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 900;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_black-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./less/SF-Pro-Text/v3/sf-pro-text_regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Ultralight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./less/SF-Pro-SC/v1/PingFangSC-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 100;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 200;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 500;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 600;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 800;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./less/JetBrains-Mono/v2-242/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+:root {
+    --title-fonts: "SF Pro SC", "SF Pro Display", -apple-system, "PingFang SC", sans-serif;
+    --text-fonts: "SF Pro SC", "SF Pro Text", -apple-system, "PingFang SC", sans-serif;
+    --code-fonts: "JetBrains Mono", "SF Mono", "Source Code Pro", "Fira Code", monospace;
+
+    --write-max-width: 980px;
+
+    --background-color: #fff;
+    --title-color: #1d1d1f;
+    --text-color: #1d1d1f;
+    --link-color: #06c;
+    --note-color: #666;
+    --border-color: #d2d2d7;
+
+    --codr-pre-bg-color: #f5f5f7;
+    --code-pre-border-color: #d2d2d7;
+    --code-pre-border-radius: 22px;
+
+    --mark-bg-color: #f9fafa;
+    --mark-text-color: #515154;
+}
+
+body {
+    width: 100%;
+    background-color: var(--background-color);
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--text-fonts);
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: var(--title-fonts);
+    font-weight: 600;
+}
+
+p,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+#write {
+    max-width: var(--write-max-width);
+    padding: 0 22px 100px;
+    margin: 0 auto;
+}
+
+#write > ul:first-child,
+#write > ol:first-child {
+    margin-top: 1.5rem;
+}
+
+#write > p {
+    margin: 0.8rem 0 0;
+}
